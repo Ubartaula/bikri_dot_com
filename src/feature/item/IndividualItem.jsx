@@ -43,10 +43,10 @@ const IndividualItem = () => {
 
         <div className="p-1">
           <div className="flex flex-row items-center justify-between">
-            <p className="text-xl font-bold/20 w-[50%] overflow-hidden whitespace-nowrap text-ellipsis">
+            <p className="text-xl font-bold/20 w-[70%] overflow-hidden whitespace-nowrap text-ellipsis">
               {item?.itemName}
             </p>
-            <p className="text-xl font-bold/20 w-[50%] overflow-hidden whitespace-nowrap text-ellipsis pr-2">
+            <p className="text-xl font-bold/20 w-[30%] overflow-hidden whitespace-nowrap text-ellipsis pr-2">
               $ {item?.price}
             </p>
           </div>
