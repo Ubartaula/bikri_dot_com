@@ -43,8 +43,12 @@ const IndividualItem = () => {
 
         <div className="p-1">
           <div className="flex flex-row items-center justify-between">
-            <p className="text-xl font-bold/20">{item?.itemName}</p>
-            <p className="text-xl font-bold/20 pr-2">$ {item?.price}</p>
+            <p className="text-xl font-bold/20 w-[50%] overflow-hidden whitespace-nowrap text-ellipsis">
+              {item?.itemName}
+            </p>
+            <p className="text-xl font-bold/20 w-[50%] overflow-hidden whitespace-nowrap text-ellipsis pr-2">
+              $ {item?.price}
+            </p>
           </div>
           <div className="flex flex-row items-center justify-between">
             <p className=" opacity-60">Qty</p>
