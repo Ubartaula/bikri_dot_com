@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between min-h-[3rem] max-h-[3rem] fixed top-0 right-0 left-0 z-50 w-[100vw]  bg-gradient-to-r from-violet-400 to-fuchsia-500 cursor-pointer transition-all duration-300 hover:shadow   shadow-black">
       <div className="flex flex-row items-center">
-        <div className="flex flex-row items-center pl-6">
+        <div className="flex flex-row items-center pl-3">
           <p className="text-blue-600 text-3xl pt-1 font-bold">बिक्रि</p>
           <p className="text-yellow-700 text-xl font-bold ">डट</p>
           <p className="text-purple-600 text-xl font-bold">कम </p>
