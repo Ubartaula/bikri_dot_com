@@ -62,7 +62,7 @@ const Navbar = () => {
               navigate("/dash/items/new");
             }
           }}
-          className="px-4 p-1 rounded-md shadow-sm shadow-black bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-300 hover:bg-gradient-to-r hover:from-green-800 hover:to-blue-700 hover:text-white ml-3 sm:min-w-[7rem] text-center"
+          className="sm:px-4 min-w-[6rem] p-1 rounded-md shadow-sm shadow-black bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-300 hover:bg-gradient-to-r hover:from-green-800 hover:to-blue-700 hover:text-white ml-3 sm:min-w-[7rem] text-center"
         >
           Post
         </div>
