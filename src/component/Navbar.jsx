@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { currentToken } from "../feature/auth/authSlice";
@@ -11,7 +11,6 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const [showDiv, setShowDiv] = useState(false);
-
 
   let managerOrSuper = false;
 
@@ -63,7 +62,7 @@ const Navbar = () => {
               navigate("/dash/items/new");
             }
           }}
-          className="sm:px-4 p-1 rounded-md shadow-sm shadow-black bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-300 hover:bg-gradient-to-r hover:from-green-800 hover:to-blue-700 hover:text-white ml-3 sm:min-w-[7rem] text-center"
+          className="px-4 p-1 rounded-md shadow-sm shadow-black bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-300 hover:bg-gradient-to-r hover:from-green-800 hover:to-blue-700 hover:text-white ml-3 sm:min-w-[7rem] text-center"
         >
           Post
         </div>
