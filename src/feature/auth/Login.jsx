@@ -131,7 +131,7 @@ const Login = () => {
     <>
       <div className="h-[3rem]"></div>
       {!isSuccessAddNewUser ? (
-        <div className="xxsm:m-auto xxsm:w-[100vw] xxsm:max-w-lg min-w-full min-h-screen bg-gray-50 text-black shadow-md shadow-black">
+        <div className=" min-w-full min-h-screen sm:min-w-[50%] sm:max-w-[50%] bg-gray-50 text-black shadow-md shadow-black">
           <div className="bg-sky-400 text-white h-[3rem] flex flex-row items-center justify-evenly font-semibold  ">
             <p
               onClick={() => setAccountOption("login")}
